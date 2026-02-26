@@ -28,7 +28,7 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 			but1=CreateWindow(TEXT("BUTTON"),
 							  TEXT("+"),
 							  WS_VISIBLE|WS_CHILD|WS_BORDER,
-							  50,130,25,25,
+							  35,130,25,25,
 							  hwnd,(HMENU)1,NULL,NULL);
 
 			but2=CreateWindow(TEXT("BUTTON"),
@@ -40,13 +40,13 @@ LRESULT CALLBACK WndProc(HWND hwnd, UINT Message, WPARAM wParam, LPARAM lParam) 
 			but3=CreateWindow(TEXT("BUTTON"),
 							  TEXT("*"),
 							  WS_VISIBLE|WS_CHILD|WS_BORDER,
-							  110,130,25,25,
+							  125,130,25,25,
 							  hwnd,(HMENU)3,NULL,NULL);	
 							  
 			but4=CreateWindow(TEXT("BUTTON"),
 							  TEXT("/"),
 							  WS_VISIBLE|WS_CHILD|WS_BORDER,
-							  140,130,25,25,
+							  170,130,25,25,
 							  hwnd,(HMENU)4,NULL,NULL);				  
 			
 			break;
